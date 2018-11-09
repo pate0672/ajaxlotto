@@ -1,0 +1,137 @@
+/* Patel Rushi
+pate0672 */
+
+
+html {}
+
+head {}
+
+body {
+    text-align: center;
+}
+
+header {
+
+    background-image: url(../img/Win-The-Lottery-Fast.jpg);
+    background-position: 75% center;
+    background-size: cover;
+    padding: 3rem;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: azure;
+    padding: 1.5rem;
+    border: 3px solid black;
+    font-size: 40px;
+}
+
+.main {
+    color: black;
+    font-size: 30px;
+    background-color: gainsboro;
+    padding: 6rem;
+    display: inline-grid;
+}
+
+.formBox input {
+    height: 30px;
+    width: 50%;
+    font-size: 1rem;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.2rem;
+ background-color: #dbff4d;
+    color: gray;
+
+}
+
+.page {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+@media (max-width: 599px) {
+   
+
+    
+
+    .formBox input {
+        height: 30px;
+        width: 5%;
+        font-size: 1rem;
+    }
+
+
+    
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        width: 20%;
+        margin: 20px;
+        border: 10px solid pink;
+        float: left;
+        -webkit-transition: box-shadow 0.5s ease;
+        -moz-transition: box-shadow 0.5s ease;
+        -o-transition: box-shadow 0.5s ease;
+        -ms-transition: box-shadow 0.5s ease;
+        transition: box-shadow 0.5s ease;
+    }
+}
+
+@media (min-width: 600px) and (max-width:999px) {
+   
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: lavender;
+    width: 20%;
+    margin: 20px;
+    border: 10px solid pink;
+    float: left;
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+}
+}
+
+@media (min-width: 1000px) {
+    
+
+   
+  
+
+
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        width: 20%;
+        margin: 20px;
+        border: 10px solid #dbff4d;
+        float: left;
+        -webkit-transition: box-shadow 0.5s ease;
+        -moz-transition: box-shadow 0.5s ease;
+        -o-transition: box-shadow 0.5s ease;
+        -ms-transition: box-shadow 0.5s ease;
+        transition: box-shadow 0.5s ease;
+    }
+
+
+}
